@@ -7,10 +7,10 @@ public class ConnectionSQLite {
     private static final String URL = "jdbc:sqlite:sqlite_database_2022.db";
 
     public static void main(String[] args) {
-        Connection();
+        initConnection();
     }
 
-    public static void Connection() {
+    public static void initConnection() {
         try(Connection connection = DriverManager.getConnection(URL)) {
             System.out.println("Conexão estabelecida.");
         } catch (SQLException e) {
