@@ -1,6 +1,6 @@
 public class Cliente {
     private Integer id, idade;
-    private String nome, CPF, RG;
+    private String nome, cpf, RG;
 
     public Integer getId() {
         return id;
@@ -26,12 +26,12 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getCPF() {
-        return CPF;
+    public String getcpf() {
+        return cpf;
     }
 
-    public void setCPF(String CPF) {
-        this.CPF = CPF;
+    public void setcpf(String cpf) {
+        this.cpf = cpf;
     }
 
     public String getRG() {
